@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Barlow", sans-serif;
+  background-color: #EEF3F6;
+  color: #242942;
+}
+
+header {
+  background-color: #242942;
+  padding: 15px 0;
+}
+header nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 30px;
+}
+header nav ul a {
+  color: white;
+  text-decoration: none;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+header nav ul a:hover {
+  color: #FF5C5C;
+}
+
+main {
+  padding: 40px 20px;
+}
+main h1 {
+  font-family: "Barlow Condensed", sans-serif;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #242942;
+}
+
+.container {
+  width: 80%;
+  min-height: 60vh;
+  margin: 0 auto;
+  border: 1px solid #242942;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+.container .item {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #FF5C5C;
+  text-align: center;
+  line-height: 100px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: white;
+  color: #242942;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #242942;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  z-index: 1000;
+}
+
+/*# sourceMappingURL=styles.css.map */

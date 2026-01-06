@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #F5F5F5;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background-color: #383377;
+    padding: 25px 0;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+main {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 0 10%;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+section h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+section hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 10px 0 20px;
+}
+
+section p {
+    margin-bottom: 15px;
+}
+
+section ul, section ol {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+section li {
+    margin-bottom: 5px;
+}
+
+.image-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.image-container img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.license-section { 
+    background-color: #333333; 
+    padding-top: 20px; 
+    padding-bottom: 20px 
+}
+
+.license-section h3 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.copyright-section {
+    margin-top: 20px;
+    padding: 20px 0;
+    background-color: #333333;
+    border-top: 1px solid #666;
+}
+
+.copyright-section p {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.icons-section {
+    margin-top: 30px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.icon-item {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #383377;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-item img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}
+
+a {
+    color: #0000FF;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #0000CC;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
